@@ -5,7 +5,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task1.V25.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double mul = 0;
+            double mul = 1;
             while (startValue <= stopValue)
             {
                 mul *= (Math.Pow(value, startValue) - 0.25) * Math.Cos(5);
