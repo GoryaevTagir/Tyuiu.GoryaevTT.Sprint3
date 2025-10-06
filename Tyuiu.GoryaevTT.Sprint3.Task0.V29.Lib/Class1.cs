@@ -8,7 +8,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task0.V29.Lib
             double sum = 0;
             for ( int i = startValue; i <= stopValue; i++ )
             {
-                sum += (Math.Pow(Math.Pow(value, 2), i) + 1/(i + 1))*Math.Cos(value);
+                sum = sum + (Math.Pow(Math.Pow(value, 2), i) + 1/(i + 1))*Math.Cos(value);
             }
             return Math.Round(sum, 3);
         }
