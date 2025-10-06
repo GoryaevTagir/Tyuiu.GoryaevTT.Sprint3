@@ -12,7 +12,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task1.V25.Test
             int b = 6;
             int c = 2;
             double res = ds.GetMultiplySeries(c, a, b);
-            Assert.AreEqual(, res);
+            Assert.AreEqual(844.664, res);
         }
     }
 }
