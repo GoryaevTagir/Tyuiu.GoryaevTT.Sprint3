@@ -11,7 +11,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task1.V25.Lib
                 mul *= (Math.Pow(value, startValue) - 0.25) * Math.Cos(5);
                 startValue++;
             }
-            return mul;
+            return Math.Round(mul,3);
         }
     }
 }
