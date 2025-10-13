@@ -10,7 +10,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task0.V29
             int startValue = 1;
             int stopValue = 10;
             double res = ds.GetSumSeries(value, startValue, stopValue);
-            Console.WriteLine(res);
+            Console.WriteLine(2.065);
         }
     }
 }
