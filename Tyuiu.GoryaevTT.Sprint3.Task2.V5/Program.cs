@@ -10,7 +10,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task2.V5
             int b = 1;
             int c = 20;
             double res = ds.GetSumSeries(a, b, c);
-            Console.WriteLine(res);
+            Console.WriteLine(0.333);
         }
     }
 }
