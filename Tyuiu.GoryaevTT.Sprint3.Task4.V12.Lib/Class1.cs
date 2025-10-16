@@ -16,11 +16,11 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task4.V12.Lib
                     }
                     else
                     {
-                        ans *= Math.Round(i / (i + Math.Sin(i)) + 2.5, 2);
+                        ans *= i / (i + Math.Sin(i)) + 2.5;
                     }
                 }
             }
-            return ans;
+            return Math.Round(ans);
         }    
     }
 }
