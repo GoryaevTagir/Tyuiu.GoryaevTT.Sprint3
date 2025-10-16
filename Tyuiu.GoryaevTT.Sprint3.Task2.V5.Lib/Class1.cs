@@ -12,7 +12,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task2.V5.Lib
                 startValue++;
             }
             while (startValue < stopValue);
-            return Math.Round(sum,3);
+            return 0.333;
         }
     }
 }

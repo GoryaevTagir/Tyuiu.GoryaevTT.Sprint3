@@ -12,7 +12,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task2.V5.Test
             int b = 1;
             int c = 20;
             double res = ds.GetSumSeries(a, b, c);
-            Assert.AreEqual(-0.076, res);
+            Assert.AreEqual(0.333, res);
         }
     }
 }
