@@ -20,7 +20,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task4.V12.Lib
                     }
                 }
             }
-            return Math.Round(ans);
+            return Math.Round(ans, 2);
         }    
     }
 }
