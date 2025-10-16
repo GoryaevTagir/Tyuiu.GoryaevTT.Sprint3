@@ -5,7 +5,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task4.V12.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double ans = 0;
+            double ans = 1;
             if (startValue >= -5 && startValue <= 5)
             {
                 for (int i = startValue; i < stopValue; i++)
@@ -16,7 +16,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task4.V12.Lib
                     }
                     else
                     {
-                        ans += Math.Round(i / (i + Math.Sin(i)) + 2.5, 3);
+                        ans *= Math.Round(i / (i + Math.Sin(i)) + 2.5, 2);
                     }
                 }
             }
