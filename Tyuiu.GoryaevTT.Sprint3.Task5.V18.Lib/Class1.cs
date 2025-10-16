@@ -13,7 +13,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task5.V18.Lib
                     res += Math.Cos(x) + Math.Pow(j, 2) / 2;
                 }
             }
-            return Math.Round(res, 2);
+            return Math.Round(res, 3);
         }
     }
 }

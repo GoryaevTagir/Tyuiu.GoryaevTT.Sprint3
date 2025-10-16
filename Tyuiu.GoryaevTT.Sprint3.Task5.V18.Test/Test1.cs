@@ -15,7 +15,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task5.V18.Test
             int e = 3;
             int f = 11;
             double res = ds.GetSumSumSeries(a, b, c, e, f);
-            Assert.AreEqual(768.36, res);
+            Assert.AreEqual(768.361, res);
         }
     }
 }
