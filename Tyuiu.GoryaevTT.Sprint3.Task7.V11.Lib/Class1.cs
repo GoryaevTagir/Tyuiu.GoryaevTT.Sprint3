@@ -10,7 +10,7 @@ namespace Tyuiu.GoryaevTT.Sprint3.Task7.V11.Lib
             res = new double[len];
             double y;
             int count = 0;
-            for (int x = 0; x < stopValue; x++)
+            for (int x = startValue; x <= stopValue; x++)
             {
                 if (x == 1)
                 {
